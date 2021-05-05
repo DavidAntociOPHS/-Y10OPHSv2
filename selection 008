@@ -10,4 +10,4 @@ elif num == 3:
     print("Ur good at this")
 
 else:
-    print("R u dum")
+    print("Are you dumb")
