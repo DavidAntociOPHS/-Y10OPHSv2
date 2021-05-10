@@ -1,0 +1,13 @@
+cars = []
+end = False
+
+while not end:
+    car = input("Enter brand or end of list--->").lower()
+    cars.append(car)
+
+    if car == "end of list":
+        end = True
+        
+
+print("Exiting")
+print("This list is",cars)
