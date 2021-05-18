@@ -1,0 +1,8 @@
+Tv=["Adventure Time","Ben Ten","John Wick"]
+print(Tv)
+
+NewTv = str(input("Enter another tv program >>"))
+location =int(input("Enter a location between 0 and 2"))
+
+Tv.insert(location,NewTv)
+print(Tv)
