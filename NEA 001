@@ -1,0 +1,22 @@
+print("League Registration")
+
+end=False;
+    
+while not end:
+    Name= (input("Enter Name>>>"))
+    Nickname= (input("Enter Nickname>>>"))
+    EmailAddress=(input("Enter Email Address>>>"))
+    SkillLevel=(input("Enter Skill Level - E for expert and C for casual>>>"))
+    print("Please review details")
+    print("First name is",Name)
+    print("Nickname is",Nickname)
+    print("EmailAddress is",EmailAddress)
+    print("SkillLevel is ", SkillLevel)
+
+    right=input("Please confirm that these details are right- Y/N").lower()
+    if right!="y":
+        end=False
+        
+    else:
+        break
+print("Many thx")                                         
