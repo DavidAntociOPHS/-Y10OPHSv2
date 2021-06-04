@@ -1,0 +1,4 @@
+name = "i dont know"
+thing = name.find("i")
+
+print(thing)
